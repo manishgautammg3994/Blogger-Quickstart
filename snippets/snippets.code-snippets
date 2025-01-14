@@ -231,5 +231,17 @@
       "</b:with>$2"
     ],
     "description": "Store a expression in a variable, which can be retrieved in secondary nodes."
-  }
+  },
+    "Template Script": {
+      "prefix": "b:tscript",
+      "body": [
+        "<b:template-script>",
+        "\t<![CDATA[",
+        "\t\t${1: // Your JavaScript code here}",
+        "\t]]>",
+        "</b:template-script>"
+      ],
+      "description": "Inserts a Blogger template script tag."
+    }
+  
 }
